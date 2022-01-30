@@ -1,0 +1,15 @@
+C:\Brijesh\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.dll
+C:\Brijesh\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.pdb
+C:\Brijesh\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.dll
+C:\Brijesh\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.pdb
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.dll
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.pdb
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.dll
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.pdb
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.dll
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Model.LoanApplication\bin\Debug\Model.LoanApplication.pdb
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.dll
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Model.LoanApplication\obj\Debug\Model.LoanApplication.pdb

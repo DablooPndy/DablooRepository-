@@ -1,0 +1,16 @@
+C:\Brijesh\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.pdb
+C:\Brijesh\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.pdb
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.pdb
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.csproj.AssemblyReference.cache
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Bkp\Bkp-orig\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.pdb
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Contract.LoanApplication\bin\Debug\Contract.LoanApplication.pdb
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.csproj.CoreCompileInputs.cache
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.dll
+C:\Brijesh\Final-Proj\28-01-22\Together proj\Contract.LoanApplication\obj\Debug\Contract.LoanApplication.pdb
