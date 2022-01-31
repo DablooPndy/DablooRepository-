@@ -26,6 +26,8 @@ namespace API.LoanApplication
                 cfg.AddProfile(new Mapping.ModelToContractProfile());
                 cfg.AddProfile(new BusinessLogic.LoanApplication.Mapping.EntitiesToModelProfile());
                 cfg.AddProfile(new BusinessLogic.LoanApplication.Mapping.ModelToEntitiesProfile());
+                cfg.AddProfile(new Database.LoanApplication.Mapping.EntitiesToModelProfileDB());
+                cfg.AddProfile(new Database.LoanApplication.Mapping.ModelToEntitiesProfileDB());
             });
             return config.CreateMapper();
         }

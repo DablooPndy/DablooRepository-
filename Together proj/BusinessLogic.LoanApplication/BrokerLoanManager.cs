@@ -26,7 +26,7 @@ namespace BusinessLogic.LoanApplication
         /// <returns>List<ModelLoanDetails></returns>
         public List<LoanDetails> GetAllLoanDetails()
         {
-            return _mapper.Map<List<LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false).OrderByDescending(o => o.CreatedDate)).ToList();
+            return _mapper.Map<List<LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false).OrderByDescending(o => o.CreatedDate).ToList());
         }
 
         /// <summary>
@@ -43,32 +43,35 @@ namespace BusinessLogic.LoanApplication
         /// Insert Loan Details
         /// </summary>
         /// <param name="_loanDetails"></param>
-        public void InsertLoanDetails(LoanDetails _loanDetails)
+        public bool InsertLoanDetails(LoanDetails _loanDetails)
         {
-            _loanDetailsUOW.Insert(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
+            _loanDetails.CreatedDate = DateTime.Now;
+            return _loanDetailsUOW.Insert(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
         }
 
         /// <summary>
         /// Update Loan Details
         /// </summary>
         /// <param name="_loanDetails"></param>
-        public void UpdateLoanDetails(LoanDetails _loanDetails)
+        public bool UpdateLoanDetails(LoanDetails _loanDetails)
         {
-            _loanDetailsUOW.Update(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
+            _loanDetails.ModifiedDate = DateTime.Now;
+            return _loanDetailsUOW.Update(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
         }
 
         /// <summary>
         /// Delete Loan Details by LoanId
         /// </summary>
         /// <param name="LoanId"></param>
-        public void DeleteLoanDetails(int LoanId)
+        public bool DeleteLoanDetails(int LoanId)
         {
             var Entity = _loanDetailsUOW.GetDetailsByID(LoanId);
             if (Entity != null)
             {
                 Entity.IsDeleted = true;
-                _loanDetailsUOW.Delete(Entity);
+                return _loanDetailsUOW.Delete(Entity);
             }
+            return false;
         }
     }
 }

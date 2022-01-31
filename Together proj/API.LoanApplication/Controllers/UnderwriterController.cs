@@ -82,14 +82,13 @@ namespace API.LoanApplication.Controllers
         /// <returns></returns>
         [HttpPut]
         //[Authorize(Roles = "underwriter")]
-        [ResponseType(typeof(string))]
+        [ResponseType(typeof(bool))]
         [Route("api/Underwriter/UpdateLoanDetails")]
         public IHttpActionResult UpdateLoanDetails(LoanDetails _loanDetails)
         {
             if (_loanDetails != null)
             {
-                _underwriterLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails));
-                return Ok();
+                return Ok(_underwriterLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
             }
             else
             { return BadRequest(); }

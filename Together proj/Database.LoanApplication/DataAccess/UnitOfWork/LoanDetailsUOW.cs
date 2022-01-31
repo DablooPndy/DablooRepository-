@@ -29,24 +29,25 @@ namespace Database.LoanApplication.DataAccess.UnitOfWork
             return _loanDetailsRepository.GetByID(id);
         }
 
-        public void Insert(LoanDetails loanDetails)
+        public bool Insert(LoanDetails loanDetails)
         {
-            loanDetails.CreatedDate = DateTime.Now;
             _loanDetailsRepository.Insert(loanDetails);
             Save();
+            return true;
         }
 
-        public void Update(LoanDetails loanDetails)
+        public bool Update(LoanDetails loanDetails)
         {
-            loanDetails.ModifiedDate = DateTime.Now;
             _loanDetailsRepository.Update(loanDetails);
             Save();
+            return true;
         }
 
-        public void Delete(LoanDetails loanDetails)
+        public bool Delete(LoanDetails loanDetails)
         {
             _loanDetailsRepository.Delete(loanDetails);
             Save();
+            return true;
         }
     }
 }

@@ -13,10 +13,10 @@ namespace BusinessLogic.LoanApplication
 
         LoanDetails GetLoanDetailsByID(int id);
 
-        void InsertLoanDetails(LoanDetails _loanDetails);
+        bool InsertLoanDetails(LoanDetails _loanDetails);
 
-        void UpdateLoanDetails(LoanDetails _loanDetails);
+        bool UpdateLoanDetails(LoanDetails _loanDetails);
 
-        void DeleteLoanDetails(int id);
+        bool DeleteLoanDetails(int id);
     }
 }

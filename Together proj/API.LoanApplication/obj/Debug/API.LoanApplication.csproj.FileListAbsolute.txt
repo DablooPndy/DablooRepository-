@@ -778,6 +778,8 @@ C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication\obj\Debug\API.L
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.CopyComplete
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.dll
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.pdb
+C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.AssemblyReference.cache
+C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\API.LoanApplication.dll.config
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\API.LoanApplication.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\API.LoanApplication.dll
@@ -1009,8 +1011,6 @@ C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\Antlr3.Runtime.
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\Database.LoanApplication.Entities.pdb
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\bin\Database.LoanApplication.Entities.dll.config
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.AssemblyReference.cache
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.csproj.CopyComplete
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication\obj\Debug\API.LoanApplication.pdb

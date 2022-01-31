@@ -83,14 +83,13 @@ namespace API.LoanApplication.Controllers
         /// <returns></returns>
         [HttpPost]
         //[Authorize(Roles = "broker")]
-        [ResponseType(typeof(string))]
+        [ResponseType(typeof(bool))]
         [Route("api/Broker/InsertLoanDetails")]
         public IHttpActionResult InsertLoanDetails(LoanDetails _loanDetails)
         {
             if (_loanDetails != null)
             {
-                _brokerLoanManager.InsertLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails));
-                return Ok();
+                return Ok(_brokerLoanManager.InsertLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
             }
             else
             { return BadRequest(); }
@@ -103,14 +102,13 @@ namespace API.LoanApplication.Controllers
         /// <returns></returns>
         [HttpPut]
         //[Authorize(Roles = "broker")]
-        [ResponseType(typeof(string))]
+        [ResponseType(typeof(bool))]
         [Route("api/Broker/UpdateLoanDetails")]
         public IHttpActionResult UpdateLoanDetails(LoanDetails _loanDetails)
         {
             if (_loanDetails != null)
             {
-                _brokerLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails));
-                return Ok();
+                return Ok(_brokerLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
             }
             else
             { return BadRequest(); }
@@ -125,14 +123,13 @@ namespace API.LoanApplication.Controllers
         /// <returns></returns>
         [HttpDelete]
         //[Authorize(Roles = "broker")]
-        [ResponseType(typeof(string))]
+        [ResponseType(typeof(bool))]
         [Route("api/Broker/DeleteLoanDetails")]
         public IHttpActionResult DeleteLoanDetails(int LoanId)
         {
             if (LoanId > 0)
             {
-                _brokerLoanManager.DeleteLoanDetails(LoanId);
-                return Ok();
+                return Ok(_brokerLoanManager.DeleteLoanDetails(LoanId));
             }
             else
             { return BadRequest(); }

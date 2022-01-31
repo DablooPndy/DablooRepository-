@@ -28,7 +28,7 @@ namespace BusinessLogic.LoanApplication
         /// <returns>List<LoanDetails></returns>
         public List<Model.LoanApplication.LoanDetails> GetAllLoanDetails()
         {
-            return _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == "").OrderByDescending(o => o.CreatedDate)).ToList();
+            return _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == "").OrderByDescending(o => o.CreatedDate).ToList());
         }
 
         /// <summary>
@@ -45,9 +45,10 @@ namespace BusinessLogic.LoanApplication
         /// Update Loan Details
         /// </summary>
         /// <param name="_loanDetails"></param>
-        public void UpdateLoanDetails(Model.LoanApplication.LoanDetails _loanDetails)
+        public bool UpdateLoanDetails(Model.LoanApplication.LoanDetails _loanDetails)
         {
-            _loanDetailsUOW.Update(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
+            _loanDetails.CaseReviewedDate = DateTime.Now;
+            return _loanDetailsUOW.Update(_mapper.Map<Database.LoanApplication.Entities.LoanDetails>(_loanDetails));
         }
     }
 }

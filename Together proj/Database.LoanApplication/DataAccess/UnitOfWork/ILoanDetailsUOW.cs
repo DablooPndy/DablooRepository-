@@ -11,8 +11,8 @@ namespace Database.LoanApplication.DataAccess.UnitOfWork
     {
          IQueryable<LoanDetails> GetAllDetails();
          LoanDetails GetDetailsByID(int id);
-         void Insert(LoanDetails loanDetails);
-         void Update(LoanDetails loanDetails);
-         void Delete(LoanDetails loanDetails);
+         bool Insert(LoanDetails loanDetails);
+         bool Update(LoanDetails loanDetails);
+         bool Delete(LoanDetails loanDetails);
     }
 }

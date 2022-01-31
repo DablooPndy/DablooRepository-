@@ -170,6 +170,8 @@ C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication.Tests\obj\Debug
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.CopyComplete
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.dll
 C:\Brijesh\Final-Proj\28-01-22\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.pdb
+C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.AssemblyReference.cache
+C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -230,7 +232,6 @@ C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Mic
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Moq.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Http.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.Owin.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Autofac.pdb
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Autofac.xml
@@ -250,8 +251,6 @@ C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Sys
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Razor.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.AssemblyReference.cache
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.csproj.CopyComplete
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\obj\Debug\API.LoanApplication.Tests.pdb

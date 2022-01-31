@@ -33,3 +33,15 @@ C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication.Entities\o
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.csproj.CopyComplete
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.dll
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.pdb
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\Database.LoanApplication.Entities.dll.config
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\Database.LoanApplication.Entities.dll
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\Database.LoanApplication.Entities.pdb
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\EntityFramework.dll
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\EntityFramework.xml
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.csproj.CoreCompileInputs.cache
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.csproj.CopyComplete
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.dll
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.pdb
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication.Entities\obj\Debug\Database.LoanApplication.Entities.csproj.AssemblyReference.cache
