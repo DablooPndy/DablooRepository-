@@ -86,12 +86,7 @@ namespace API.LoanApplication.Controllers
         [Route("api/Underwriter/UpdateLoanDetails")]
         public IHttpActionResult UpdateLoanDetails(LoanDetails _loanDetails)
         {
-            if (_loanDetails != null)
-            {
-                return Ok(_underwriterLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
-            }
-            else
-            { return BadRequest(); }
+            return Ok(_underwriterLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
         }
     }
 }

@@ -44,7 +44,6 @@ namespace API.LoanApplication.Tests
         {
             //Arrange
             int Loanid = 2;
-            Mock<IBrokerLoanManager> _mockIBrokerLoanManager = new Mock<IBrokerLoanManager>();
             _mockIBrokerLoanManager.Setup(x => x.GetLoanDetailsByID(Loanid)).Returns(GetAllLoandeatils().Find(x => x.Id == Loanid));
 
             var config = new MapperConfiguration(cfg => cfg.AddProfile<Mapping.ModelToContractProfile>());
@@ -58,16 +57,15 @@ namespace API.LoanApplication.Tests
             //// Assert
             Assert.IsNotNull(contentResponse.Content);
             Assert.AreEqual(3000, contentResponse.Content.Amount);
-            Assert.AreEqual("First", contentResponse.Content.ChargeType);
+            Assert.AreEqual("Second", contentResponse.Content.ChargeType);
             Assert.AreEqual("Female", contentResponse.Content.Gender);
             Assert.AreEqual("Xyzfn", contentResponse.Content.FirstName);
         }
 
         [TestMethod]
-        public void InsertLoanDetails_ObjLoanDetails_Isinserted_Test()
+        public void InsertLoanDetails_ObjLoanDetails_IsInserted_Test()
         {
             //Arrange
-            Mock<IBrokerLoanManager> _mockIBrokerLoanManager = new Mock<IBrokerLoanManager>();
             _mockIBrokerLoanManager.Setup(x => x.InsertLoanDetails(It.IsAny<Model.LoanApplication.LoanDetails>())).Returns(true);
 
             var config = new MapperConfiguration(cfg => cfg.AddProfile<Mapping.ModelToContractProfile>());
@@ -85,7 +83,48 @@ namespace API.LoanApplication.Tests
             Assert.IsInstanceOfType(httpActionResult, typeof(OkNegotiatedContentResult<bool>));
         }
 
+        [TestMethod]
+        public void UpdateLoanDetails_ObjLoanDetails_IsUpdated_Test()
+        {
+            //Arrange
+            _mockIBrokerLoanManager.Setup(x => x.UpdateLoanDetails(It.IsAny<Model.LoanApplication.LoanDetails>())).Returns(true);
 
+            var config = new MapperConfiguration(cfg => cfg.AddProfile<Mapping.ModelToContractProfile>());
+            var mapper = config.CreateMapper();
+
+            // Act
+            BrokerController _brokerController = new BrokerController(_mockIBrokerLoanManager.Object, mapper);
+            IHttpActionResult httpActionResult = _brokerController.UpdateLoanDetails(It.IsAny<Contract.LoanApplication.LoanDetails>());
+
+            var contentResponse = httpActionResult as OkNegotiatedContentResult<bool>;
+
+            //// Assert
+            Assert.IsNotNull(contentResponse.Content);
+            Assert.AreEqual(true, contentResponse.Content);
+            Assert.IsInstanceOfType(httpActionResult, typeof(OkNegotiatedContentResult<bool>));
+        }
+
+        [TestMethod]
+        public void DeleteLoanDetails_Loanid_IsDeleted_Test()
+        {
+            //Arrange
+            int Loanid = 2;
+            _mockIBrokerLoanManager.Setup(x => x.DeleteLoanDetails(Loanid)).Returns(true);
+
+            var config = new MapperConfiguration(cfg => cfg.AddProfile<Mapping.ModelToContractProfile>());
+            var mapper = config.CreateMapper();
+
+            // Act
+            BrokerController _brokerController = new BrokerController(_mockIBrokerLoanManager.Object, mapper);
+            IHttpActionResult httpActionResult = _brokerController.DeleteLoanDetails(Loanid);
+
+            var contentResponse = httpActionResult as OkNegotiatedContentResult<bool>;
+
+            //// Assert
+            Assert.IsNotNull(contentResponse.Content);
+            Assert.AreEqual(true, contentResponse.Content);
+            Assert.IsInstanceOfType(httpActionResult, typeof(OkNegotiatedContentResult<bool>));
+        }
 
         private List<Model.LoanApplication.LoanDetails> GetAllLoandeatils()
         {
@@ -94,11 +133,6 @@ namespace API.LoanApplication.Tests
             lsloanDetails.Add(new Model.LoanApplication.LoanDetails { Id = 2, Amount = 3000, Valuation = 1500, ChargeType = "Second", FirstName = "Xyzfn", LastName = "Xyzln", Gender = "Female", Contact = 9892123456, Postcode = 427894 });
 
             return lsloanDetails;
-        }
-        private Contract.LoanApplication.LoanDetails LoanDetails()
-        {
-            return new Contract.LoanApplication.LoanDetails { Id = 1, Amount = 1000, Valuation = 500, ChargeType = "First", FirstName = "Abcfn", LastName = "Abcln", Gender = "Male", Contact = 9892804840, Postcode = 421605 };
- 
         }
     } 
 }

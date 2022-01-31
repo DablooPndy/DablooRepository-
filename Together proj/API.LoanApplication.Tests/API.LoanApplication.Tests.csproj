@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="BrokerControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnderwriterControllerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

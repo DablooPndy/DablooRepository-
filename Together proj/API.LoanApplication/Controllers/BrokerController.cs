@@ -87,12 +87,7 @@ namespace API.LoanApplication.Controllers
         [Route("api/Broker/InsertLoanDetails")]
         public IHttpActionResult InsertLoanDetails(LoanDetails _loanDetails)
         {
-            if (_loanDetails != null)
-            {
-                return Ok(_brokerLoanManager.InsertLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
-            }
-            else
-            { return BadRequest(); }
+            return Ok(_brokerLoanManager.InsertLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
         }
 
         /// <summary>
@@ -106,14 +101,7 @@ namespace API.LoanApplication.Controllers
         [Route("api/Broker/UpdateLoanDetails")]
         public IHttpActionResult UpdateLoanDetails(LoanDetails _loanDetails)
         {
-            if (_loanDetails != null)
-            {
-                return Ok(_brokerLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
-            }
-            else
-            { return BadRequest(); }
-
-            //
+            return Ok(_brokerLoanManager.UpdateLoanDetails(_mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetails)));
         }
 
         /// <summary>
@@ -127,12 +115,7 @@ namespace API.LoanApplication.Controllers
         [Route("api/Broker/DeleteLoanDetails")]
         public IHttpActionResult DeleteLoanDetails(int LoanId)
         {
-            if (LoanId > 0)
-            {
-                return Ok(_brokerLoanManager.DeleteLoanDetails(LoanId));
-            }
-            else
-            { return BadRequest(); }
+            return Ok(_brokerLoanManager.DeleteLoanDetails(LoanId));
         }
     }
 }
