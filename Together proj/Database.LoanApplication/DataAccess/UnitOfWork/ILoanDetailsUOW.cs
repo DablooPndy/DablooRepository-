@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.LoanApplication.DataAccess.UnitOfWork
 {
-    public interface IBrokerUOW : IUnitOfWork<LoanDBContext>
+    public interface ILoanDetailsUOW : IUnitOfWork<LoanDBContext>
     {
          IQueryable<LoanDetails> GetAllDetails();
          LoanDetails GetDetailsByID(int id);

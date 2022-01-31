@@ -9,19 +9,19 @@ using Database.LoanApplication.DataAccess.Repository;
 
 namespace Database.LoanApplication.DataAccess.UnitOfWork
 {
-    public class BrokerUOW : UnitOfWork<DbContext>, IBrokerUOW
+    public class LoanDetailsUOW : UnitOfWork<DbContext>, ILoanDetailsUOW
     {
         private readonly DbContext _context = null;
-        private readonly IBrokerRepository _loanDetailsRepository = null;
+        private readonly ILoanDetailsRepository _loanDetailsRepository = null;
 
-        public BrokerUOW(DbContext _context, IBrokerRepository _loanDetailsRepository) : base(_context)
+        public LoanDetailsUOW(DbContext _context, ILoanDetailsRepository _loanDetailsRepository) : base(_context)
         {
             this._context = _context; 
             this._loanDetailsRepository = _loanDetailsRepository;
         }
         public IQueryable<LoanDetails> GetAllDetails()
         {
-            return _loanDetailsRepository.GetAll().Where(x => x.IsDeleted == false).OrderByDescending(o => o.CreatedDate);
+            return _loanDetailsRepository.GetAll();
         }
 
         public LoanDetails GetDetailsByID(int id)

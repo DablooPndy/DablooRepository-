@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 
 namespace Database.LoanApplication.DataAccess.Repository
 {
-    public interface IUnderwriterRepository : IGenericRepository<LoanDetails, DbContext>
+    public class LoanDetailsRepository : GenericRepository<LoanDetails, DbContext>, ILoanDetailsRepository
     {
+        public LoanDetailsRepository(DbContext _dbContext) : base(_dbContext)
+        {
+        }
     }
 }

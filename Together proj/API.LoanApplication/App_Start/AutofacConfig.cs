@@ -51,10 +51,8 @@ namespace API.LoanApplication
         private static void  RegisterServices(ContainerBuilder builder)
         {
             // Register Database Layer.
-            builder.RegisterType<BrokerRepository>().As<IBrokerRepository>().InstancePerRequest();
-            builder.RegisterType<UnderwriterRepository>().As<IUnderwriterRepository>().InstancePerRequest();
-            builder.RegisterType<BrokerUOW>().As<IBrokerUOW>().InstancePerRequest();
-            builder.RegisterType<UnderwriterUOW>().As<IUnderwriterUOW>().InstancePerRequest();
+            builder.RegisterType<LoanDetailsRepository>().As<ILoanDetailsRepository>().InstancePerRequest();
+            builder.RegisterType<LoanDetailsUOW>().As<ILoanDetailsUOW>().InstancePerRequest();
             builder.RegisterType<LoanDBContext>().As<DbContext>().InstancePerRequest();
 
             // Register Business Layer.

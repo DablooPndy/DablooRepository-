@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Database.LoanApplication.DataAccess.Repository
 {
-    public interface IBrokerRepository : IGenericRepository<LoanDetails,DbContext>
+    public interface ILoanDetailsRepository : IGenericRepository<LoanDetails,DbContext>
     {
     }
 }

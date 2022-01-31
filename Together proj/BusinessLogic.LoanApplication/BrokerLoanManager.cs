@@ -11,10 +11,10 @@ namespace BusinessLogic.LoanApplication
 {
     public class BrokerLoanManager : IBrokerLoanManager
     {
-        private readonly IBrokerUOW _loanDetailsUOW = null;
+        private readonly ILoanDetailsUOW _loanDetailsUOW = null;
         private readonly IMapper _mapper = null;
 
-        public BrokerLoanManager(IBrokerUOW _loanDetailsUOW, IMapper _mapper)
+        public BrokerLoanManager(ILoanDetailsUOW _loanDetailsUOW, IMapper _mapper)
         {
             this._loanDetailsUOW = _loanDetailsUOW;
             this._mapper = _mapper;
@@ -26,7 +26,7 @@ namespace BusinessLogic.LoanApplication
         /// <returns>List<ModelLoanDetails></returns>
         public List<LoanDetails> GetAllLoanDetails()
         {
-            return _mapper.Map<List<LoanDetails>>(_loanDetailsUOW.GetAllDetails()).ToList();
+            return _mapper.Map<List<LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false).OrderByDescending(o => o.CreatedDate)).ToList();
         }
 
         /// <summary>
