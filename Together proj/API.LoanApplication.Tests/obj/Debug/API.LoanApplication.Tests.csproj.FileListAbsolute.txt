@@ -194,7 +194,6 @@ C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Sys
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\WebActivatorEx.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Autofac.dll
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Mvc.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Swashbuckle.Core.dll
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
@@ -235,7 +234,6 @@ C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Sys
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.Owin.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Autofac.pdb
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Autofac.xml
-C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Optimization.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Web.Mvc.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Brijesh\MyGitRepository\Together proj\API.LoanApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
