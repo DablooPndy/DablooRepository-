@@ -58,8 +58,6 @@ C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication\obj\Debug\
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.CopyComplete
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.dll
 C:\Brijesh\Final-Proj\28-01-22\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.pdb
-C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.AssemblyReference.cache
-C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\Database.LoanApplication.dll.config
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\Database.LoanApplication.dll
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\Database.LoanApplication.pdb
@@ -77,6 +75,8 @@ C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\Auto
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\EntityFramework.xml
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\EntityFramework.SqlServer.xml
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\bin\Debug\System.ValueTuple.xml
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.AssemblyReference.cache
+C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.csproj.CopyComplete
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.dll
 C:\Brijesh\MyGitRepository\Together proj\Database.LoanApplication\obj\Debug\Database.LoanApplication.pdb

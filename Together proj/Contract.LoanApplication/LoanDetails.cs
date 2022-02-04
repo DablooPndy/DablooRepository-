@@ -12,6 +12,7 @@ namespace Contract.LoanApplication
         public int Id { get; set; }
         public decimal Amount { get; set; }
         public decimal Valuation { get; set; }
+        public decimal LTV { get; set; }
         public string ChargeType { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -19,7 +20,7 @@ namespace Contract.LoanApplication
         public long Contact { get; set; }
         public int Postcode { get; set; }
         public bool IsDeleted { get; set; }
-        public string UWStatus { get; set; } = String.Empty;
+        public string UWStatus { get; set; } 
         public string UWReason { get; set; }
         public string CreatedBy { get; set; }
         public DateTime? CreatedDate { get; set; }

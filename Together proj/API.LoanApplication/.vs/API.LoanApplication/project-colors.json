@@ -35,7 +35,12 @@
       "ProjectGuid": "b721c6b0-834c-4ea6-b067-e64b3a6a0010",
       "DisplayName": "Model.LoanApplication",
       "ColorIndex": 5
+    },
+    "5169438d-562c-463c-8846-866b9e818255": {
+      "ProjectGuid": "5169438d-562c-463c-8846-866b9e818255",
+      "DisplayName": "Database.LoanApplication.Entities",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

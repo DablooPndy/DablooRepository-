@@ -28,7 +28,9 @@ namespace BusinessLogic.LoanApplication
         /// <returns>List<LoanDetails></returns>
         public List<Model.LoanApplication.LoanDetails> GetAllLoanDetails()
         {
-            return _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == "").OrderByDescending(o => o.CreatedDate).ToList());
+            List<Model.LoanApplication.LoanDetails> loanDetails = _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == "").OrderByDescending(o => o.CreatedDate).ToList());
+            loanDetails.ForEach(s => s.LTV = Utility.GetCalculatedLTV(s.Amount, s.Valuation));
+            return loanDetails;
         }
 
         /// <summary>
@@ -38,7 +40,9 @@ namespace BusinessLogic.LoanApplication
         /// <returns>LoanDetails</returns>
         public Model.LoanApplication.LoanDetails GetLoanDetailsByID(int LoanId)
         {
-            return _mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetailsUOW.GetDetailsByID(LoanId));
+            Model.LoanApplication.LoanDetails loanDetails = _mapper.Map<Model.LoanApplication.LoanDetails>(_loanDetailsUOW.GetDetailsByID(LoanId));
+            loanDetails.LTV = Utility.GetCalculatedLTV(loanDetails.Amount, loanDetails.Valuation);
+            return loanDetails;
         }
 
         /// <summary>

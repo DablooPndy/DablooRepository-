@@ -11,6 +11,7 @@ namespace Model.LoanApplication
         public int Id { get; set; }
         public decimal Amount { get; set; }
         public decimal Valuation { get; set; }
+        public decimal LTV { get; set; }
         public string ChargeType { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

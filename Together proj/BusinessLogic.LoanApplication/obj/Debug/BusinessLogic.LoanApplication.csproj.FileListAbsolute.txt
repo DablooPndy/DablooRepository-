@@ -67,7 +67,6 @@ C:\Brijesh\Final-Proj\28-01-22\Together proj\BusinessLogic.LoanApplication\obj\D
 C:\Brijesh\Final-Proj\28-01-22\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.csproj.CopyComplete
 C:\Brijesh\Final-Proj\28-01-22\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.dll
 C:\Brijesh\Final-Proj\28-01-22\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.pdb
-C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug\BusinessLogic.LoanApplication.dll.config
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug\BusinessLogic.LoanApplication.dll
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug\BusinessLogic.LoanApplication.pdb
@@ -87,6 +86,7 @@ C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug\EntityFramework.xml
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\bin\Debug\EntityFramework.SqlServer.xml
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.csproj.AssemblyReference.cache
+C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.csproj.CoreCompileInputs.cache
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.csproj.CopyComplete
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.dll
 C:\Brijesh\MyGitRepository\Together proj\BusinessLogic.LoanApplication\obj\Debug\BusinessLogic.LoanApplication.pdb

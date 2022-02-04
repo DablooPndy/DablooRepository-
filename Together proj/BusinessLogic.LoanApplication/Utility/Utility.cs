@@ -67,5 +67,13 @@ namespace BusinessLogic.LoanApplication
             }
             return cipherText;
         }
+        public static decimal GetCalculatedLTV(decimal Amount, decimal Valuation)
+        {
+            if (Amount > 0 && Valuation > 0)
+            {
+                return Math.Round(((Amount / Valuation) * 100), 2);
+            }
+            return 0;
+        }
     }
 }
