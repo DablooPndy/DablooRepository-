@@ -28,7 +28,7 @@ namespace BusinessLogic.LoanApplication
         /// <returns>List<LoanDetails></returns>
         public List<Model.LoanApplication.LoanDetails> GetAllLoanDetails()
         {
-            List<Model.LoanApplication.LoanDetails> loanDetails = _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == "").OrderByDescending(o => o.CreatedDate).ToList());
+            List<Model.LoanApplication.LoanDetails> loanDetails = _mapper.Map<List<Model.LoanApplication.LoanDetails>>(_loanDetailsUOW.GetAllDetails().Where(x => x.IsDeleted == false && x.UWStatus == null).OrderByDescending(o => o.CreatedDate).ToList());
             loanDetails.ForEach(s => s.LTV = Utility.GetCalculatedLTV(s.Amount, s.Valuation));
             return loanDetails;
         }
