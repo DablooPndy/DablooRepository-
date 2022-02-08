@@ -39,9 +39,7 @@ namespace API.LoanApplication.Controllers
         [Route("api/NewLoginController/ValidateUser")]
         public IHttpActionResult ValidateUser(LoginDetails _loginDetails)
         {
-            if (_loginManager.ValidateUser(_mapper.Map<Model.LoanApplication.LoginDetails>(_loginDetails)))
-            { return Ok(); }
-            else { return BadRequest(); };
+           return Ok(_mapper.Map<LoginDetails>(_loginManager.ValidateUser(_mapper.Map<Model.LoanApplication.LoginDetails>(_loginDetails))));
         }
     }
 }

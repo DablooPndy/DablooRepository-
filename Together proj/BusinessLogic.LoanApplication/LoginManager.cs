@@ -26,18 +26,15 @@ namespace BusinessLogic.LoanApplication
         /// </summary>
         /// <param name="_loginDetails"></param>
         /// <returns></returns>
-        public bool ValidateUser(LoginDetails _loginDetails)
+        public LoginDetails ValidateUser(LoginDetails _loginDetails)
         {
-
-            if ((_loginDetails.UserName == "underwriter" && Utility.Decrypt(_loginDetails.Password) == "underwriter") || (_loginDetails.UserName == "broker" && Utility.Decrypt(_loginDetails.Password) == "broker"))
+            if ((_loginDetails.UserName == "Underwriter" && Utility.Decrypt(_loginDetails.Password) == "underwriter") || (_loginDetails.UserName == "Broker" && Utility.Decrypt(_loginDetails.Password) == "broker"))
             {
-                return true;
+                _loginDetails.Roles = _loginDetails.UserName == "Underwriter" ? "Underwriter" : "Broker";
+                _loginDetails.IsUserValid = true;
             }
-            else
-            {
-                return false;
-            }
-           
+            _loginDetails.Password = "";
+            return _loginDetails;
         }
     }
 }

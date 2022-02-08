@@ -12,6 +12,6 @@ namespace BusinessLogic.LoanApplication
     /// </summary>
     public interface ILoginManager
     {
-        bool ValidateUser(LoginDetails _loginDetails);
+        LoginDetails ValidateUser(LoginDetails _loginDetails);
     }
 }
